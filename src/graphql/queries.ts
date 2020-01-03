@@ -6,6 +6,7 @@ export const getMyFirstType = `query GetMyFirstType($id: ID!) {
     id
     title
     content
+    author
     price
     rating
   }
@@ -21,6 +22,7 @@ export const listMyFirstTypes = `query ListMyFirstTypes(
       id
       title
       content
+      author
       price
       rating
     }

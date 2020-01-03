@@ -6,6 +6,7 @@ export const onCreateMyFirstType = `subscription OnCreateMyFirstType {
     id
     title
     content
+    author
     price
     rating
   }
@@ -16,6 +17,7 @@ export const onUpdateMyFirstType = `subscription OnUpdateMyFirstType {
     id
     title
     content
+    author
     price
     rating
   }
@@ -26,6 +28,7 @@ export const onDeleteMyFirstType = `subscription OnDeleteMyFirstType {
     id
     title
     content
+    author
     price
     rating
   }

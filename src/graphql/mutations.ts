@@ -9,6 +9,7 @@ export const createMyFirstType = `mutation CreateMyFirstType(
     id
     title
     content
+    author
     price
     rating
   }
@@ -22,6 +23,7 @@ export const updateMyFirstType = `mutation UpdateMyFirstType(
     id
     title
     content
+    author
     price
     rating
   }
@@ -35,6 +37,7 @@ export const deleteMyFirstType = `mutation DeleteMyFirstType(
     id
     title
     content
+    author
     price
     rating
   }
